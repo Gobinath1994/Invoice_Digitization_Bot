@@ -1,0 +1,41 @@
+# 🔒 Python virtual environment
+venv/
+Invoice_bot/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 📦 Environment/config files
+.env
+*.env
+.DS_Store
+
+# 📤 Output folders and files
+output/
+*.csv
+*.db
+*.log
+
+# 🖼️ Temporary image/pdf processing files
+temp.*
+*.png
+*.jpg
+*.jpeg
+*.tiff
+*.pdf
+
+# 💻 Streamlit cache
+.streamlit/
+
+# 📁 IDE/editor-specific settings
+.vscode/
+.idea/
+
+# 🚫 OS-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 🔐 Backup/zip files
+*.zip

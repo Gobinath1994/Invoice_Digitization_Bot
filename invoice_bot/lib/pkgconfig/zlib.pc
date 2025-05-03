@@ -1,0 +1,13 @@
+prefix=/Users/gobinathsindhuja/Desktop/Desktop - Gobinath’s MacBook Pro/GenAI-projects/Invoice_Digitization_Bot/invoice_bot
+exec_prefix=/Users/gobinathsindhuja/Desktop/Desktop - Gobinath’s MacBook Pro/GenAI-projects/Invoice_Digitization_Bot/invoice_bot
+libdir=/Users/gobinathsindhuja/Desktop/Desktop - Gobinath’s MacBook Pro/GenAI-projects/Invoice_Digitization_Bot/invoice_bot/lib
+sharedlibdir=/Users/gobinathsindhuja/Desktop/Desktop - Gobinath’s MacBook Pro/GenAI-projects/Invoice_Digitization_Bot/invoice_bot/lib
+includedir=/Users/gobinathsindhuja/Desktop/Desktop - Gobinath’s MacBook Pro/GenAI-projects/Invoice_Digitization_Bot/invoice_bot/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

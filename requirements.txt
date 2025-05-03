@@ -1,0 +1,7 @@
+
+pytesseract
+pillow
+pdf2image
+transformers
+requests
+streamlit
