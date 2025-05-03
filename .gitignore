@@ -1,41 +1,35 @@
-# 🔒 Python virtual environment
-venv/
-Invoice_bot/
+
+# === Python-related ===
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
 
-# 📦 Environment/config files
-.env
-*.env
+# === Virtual environments ===
+venv/
+Invoice_bot/
+env/
+.venv/
+
+# === MacOS-specific ===
 .DS_Store
 
-# 📤 Output folders and files
+# === Output and temporary data ===
 output/
+data/
 *.csv
 *.db
 *.log
-
-# 🖼️ Temporary image/pdf processing files
 temp.*
-*.png
-*.jpg
-*.jpeg
-*.tiff
-*.pdf
 
-# 💻 Streamlit cache
+# === Streamlit ===
 .streamlit/
 
-# 📁 IDE/editor-specific settings
+# === IDE and editor folders ===
 .vscode/
 .idea/
 
-# 🚫 OS-specific files
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-
-# 🔐 Backup/zip files
+# === Archives and backups ===
 *.zip
+*.tar
+*.gz
